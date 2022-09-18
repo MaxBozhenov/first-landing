@@ -1,0 +1,168 @@
+.room-section__wrapper__hands-icon {
+  background-image: url(../img/hands.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 33px;
+  height: 28px;
+  margin: 0 8px;
+}
+
+.room-section__wrapper__hands {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.room-section__wrapper__title__text {
+  display: flex;
+  justify-content: center;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  color: #363636;
+  margin-top: 27px;
+}
+
+.client-section {
+  height: 1107px;
+}
+
+.client-section__wraper__cardsbox {
+  display: flex;
+  gap: 54px;
+}
+
+.client-section__wraper__card {
+  background: #ffffff;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+  padding: 24px 32px 24px 20px;
+}
+
+.client-section__wraper__card__title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 17px;
+}
+
+.client-section__wraper__card__photo {
+  background-image: url(../img/cardphoto.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+}
+
+.client-section__wraper__card__photo1 {
+  background-image: url(../img/cardphoto1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+}
+
+.client-section__wraper__card__photo2 {
+  background-image: url(../img/cardphoto2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+}
+
+.client-section__wraper__card__title__text {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #181818;
+}
+
+.client-section__wraper__card__text {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 180%;
+  color: #959595;
+  margin-top: 39px;
+  margin-bottom: 63px;
+}
+
+.client-section__wraper__card__button {
+  font-family: "Nunito Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  background: #e3b873;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border-radius: 2px;
+  width: 294px;
+  display: flex;
+
+  position: relative;
+  bottom: -27px;
+}
+
+.client-section__wraper__card__button__left-side {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 11px 13px 11px 17px;
+  border-right: 1px solid #fff;
+}
+
+.client-section__wraper__card__button__left-side__icon {
+  background-image: url(../img/square.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 32px;
+  height: 32px;
+}
+
+.client-section__wraper__card__button__left-side__text {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.client-section__wraper__card__button__right-side {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 11px 13px 11px 17px;
+}
+
+.client-section__wraper__card__button__right-side__icon {
+  background-image: url(../img/note.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 32px;
+  height: 32px;
+}
+
+.client-section__wraper__card__button__right-side__text {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+}

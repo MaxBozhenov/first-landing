@@ -1,0 +1,120 @@
+.rooms-section {
+  height: 864px;
+  background-color: #f0f0f0;
+  background-image: url(../img/backgroundroom.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.rooms-section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.rooms-section__wrapper {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 140px 100px 100px;
+  position: relative;
+  z-index: 1;
+}
+
+.rooms-section__wrapper__left-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.rooms-section__wrapper__header {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #e3b873;
+}
+
+.rooms-section__wrapper__rooms-list {
+  list-style: none;
+}
+
+.rooms-section__wrapper__rooms-list__room {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  color: #ffffff;
+}
+
+.rooms-section__wrapper__rooms-list__room.is-active span {
+  color: #e3b873;
+  border-bottom: 1px solid #e3b873;
+}
+
+.rooms-section__wrapper__right-side {
+  display: flex;
+  gap: 43px;
+}
+
+.rooms-section__wrapper__first-column {
+  position: relative;
+  top: -181px;
+
+  width: 354px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.rooms-section__wrapper__first-column__img1 {
+  background-image: url(../img/img1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-shrink: 0;
+  height: 558px;
+}
+
+.rooms-section__wrapper__first-column__img2 {
+  background-image: url(../img/img2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-shrink: 0;
+  height: 350px;
+}
+
+.rooms-section__wrapper__last-column {
+  position: relative;
+  top: -253px;
+  width: 354px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.rooms-section__wrapper__last-column__img1 {
+  background-image: url(../img/img3.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-shrink: 0;
+  height: 275px;
+}
+
+.rooms-section__wrapper__last-column__img2 {
+  background-image: url(../img/img4.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-shrink: 0;
+  height: 625px;
+}

@@ -1,0 +1,27 @@
+@media screen and (max-width: 375px) {
+  .header {
+    height: 57px;
+  }
+
+  footer.header {
+    display: none;
+  }
+
+  .header__logo {
+    margin-left: 18px;
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  .header__social a:first-child {
+    color: #fff;
+    margin-right: 18px;
+    text-decoration: none;
+  }
+
+  .main-button {
+    display: none;
+  }
+}

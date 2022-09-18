@@ -1,0 +1,112 @@
+@media screen and (max-width: 375px) {
+  .application-section {
+    position: relative;
+    top: -1px;
+    background-color: #181818;
+  }
+
+  .application-section__wrapper {
+    margin-top: 0px;
+    width: 100%;
+    padding: 22px 18px 0;
+    box-sizing: border-box;
+  }
+
+  .application-section__wrapper__p {
+    width: 100%;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 169.8%;
+    color: #fff;
+    margin-bottom: 61px;
+  }
+
+  .application-section__wrapper__form {
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+  }
+
+  .application-section__wrapper__form__label:first-of-type { 
+    margin-bottom: 63px;
+  }
+
+  .application-section__wrapper__form__label,
+  .application-section__wrapper__form__label:last-of-type {
+    margin: 0;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+  }
+
+  .application-section__wrapper__form__label__input {
+    background-color: #ffffff00;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+  }
+
+  .application-section__wrapper__form__label__input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 138.72%;
+    color: #fff;
+    opacity: 1;
+  }
+
+  .application-section__wrapper__form__submit {
+    display: block;
+    height: 51px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 53px;
+    margin-bottom: -25px;
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .application-section__checkmark {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 163.68%;
+    color: #ffffff;
+    margin-top: 32px;
+  }
+
+  /* Types Section */
+  .types-section__cardsbox {
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0 18px;
+  }
+
+  .types-section__card {
+    width: 100%;
+    margin-bottom: 178px;
+  }
+
+  .types-section__card__checklist {
+    transform: translate(0, 294px);
+    align-items: start;
+    padding-left: 31px;
+    width: 270px;
+  }
+
+  .Redecorating {
+    margin-bottom: 10px;
+  }
+
+  .types-section__card_ul {
+
+  }
+
+  .types-section__card__button {
+    width: 190px;
+    transform: translate(-31px, 33px);
+  }
+}

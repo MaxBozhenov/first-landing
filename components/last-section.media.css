@@ -1,0 +1,45 @@
+@media screen and (max-width: 375px) {
+  .last-section {
+    padding: 0 18px;
+    background-image: none;
+    background-color: #181818;
+  }
+
+  .last-section::after {
+    background-color: #ffffff00;
+  }
+
+  .last-section__text {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 138.6%;
+  }
+
+  .last-section__align {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
+  }
+
+  .last-section__wrapper__inputbox {
+    position: relative;
+    top: 0px;
+    width: 100%;
+  }
+
+  .last-section__wrapper__inputbox__text {
+    width: 100%;
+  }
+
+  .last-section__horizontal-align-inputs {
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .last-section__wrapper__rightside__checkbox__button {
+    display: block;
+  }
+
+
+}

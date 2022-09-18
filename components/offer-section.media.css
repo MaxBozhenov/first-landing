@@ -1,0 +1,43 @@
+@media screen and (max-width: 375px) {
+  .offer-section {
+    height: auto;
+  }
+
+  .offer-section__wrapper {
+    align-items: start;
+  }
+
+  .offer-section__offer {
+    margin: 85px 18px 61px;
+  }
+
+  .offer-section__offer h1 {
+    margin-bottom: 16px;
+    font-size: 23px;
+    line-height: 132.83%;
+  }
+
+  .offer-section__offer p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135.84%;
+  }
+
+  .offer-section__buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .offer-section__buttons a {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  .offer-section__buttons a:first-child {
+    margin-bottom: 26px;
+  }
+}
